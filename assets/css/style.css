@@ -1,0 +1,255 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  top:0 !important;
+  font-size: 16px;
+ font-family: 'DM Sans', sans-serif;
+ font-size: 400;
+
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+h1 {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+h3 {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+h4 {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+h5 {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+h6 {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+p {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+a {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  outline: none !important;
+  text-decoration: none !important; 
+}
+
+input {
+  outline: none !important; 
+}
+
+button {
+  outline: none !important; 
+}
+img{
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+/*====================*/
+
+.nav_header{
+	background: #FFFFFF;
+	overflow: hidden;
+	padding: 25px 0px;
+}
+.continer_custom{
+	margin: auto;
+	max-width: 1170px;
+	width: 100%;
+	padding-left: 15px;
+	overflow: hidden;
+	padding-right: 15px;
+
+}
+.logo_area{
+	width: 50%;
+	float: left;
+  overflow: hidden;
+}
+.menu_area{
+	width: 50%;
+	float: left;
+  overflow: hidden;
+
+}
+.menu_area ul{
+  float: right;
+
+}
+.menu_area ul li{
+  display: inline;
+}
+.menu_area ul li a{
+  font-weight: 500;
+  font-size: 16px;
+line-height: 33px;
+color: #0F2137;
+margin-left: 48px;
+display: inline-block;
+transition: 0.5s;
+border-bottom: 5px solid transparent;
+
+}
+.menu_area ul li a:hover{
+  color: #28DCB2;
+  transition: 0.5s;
+  border-bottom: 5px solid #28DCB2;
+} 
+.hero_section{
+  background:#fff;
+  padding-top: 90px;
+  padding-bottom: 109px;
+   padding-right:90px;
+   
+}
+.hero_content {
+    width: 50%;
+    float: left;
+    overflow: hidden;
+ }
+.hero_image {
+    width: 50%;
+    float: left;
+    
+}
+.hero_image :after{
+  position: absolute;
+  width: 302px;
+  height: 347px;
+  content: "";
+  background-repeat: no-repeat;
+  background: url('../images/hero_dot.png');
+  background-size: 100% 100%;
+  top: -51px;
+  right: -91px;
+
+  
+
+}
+.hero_content h1{
+  font-weight: 700;
+font-size: 60px;
+line-height: 80px;
+letter-spacing: -1px;
+color: #02073E;
+padding-bottom: 19px;
+}
+.hero_content p{
+  font-size: 18px;
+line-height: 42px;
+color: #02073E;
+padding-bottom: 47px;
+}
+.Explore_btn a{
+  background: #28DDB2;
+  border-radius: 6px;
+  font-weight: 700;
+font-size: 18px;
+line-height: 10px;
+text-align: center;
+color: #FFFFFF;
+padding: 25px 31px;
+display: inline-block;
+ transition: 0.5s;
+}
+.Explore_btn a:hover{
+  background: #4F96FF;
+  transition: 0.5s;
+  color: #FFFFFF;
+
+} 
+.Explore_btn {
+  padding-bottom: 46px;
+}
+.client_logo ul li{
+  display: inline;
+}
+.client_logo ul li a{
+ margin-right: 28px;
+ display: inline-block;
+}
+.features_section{
+  background: #fff;
+  padding-top: 109px;
+  text-align: center;
+  padding-bottom: 45px;
+
+}
+.features h2{
+font-weight: 500;
+font-size: 30px;
+text-align: center;
+color: #0F2137;
+margin-bottom: 10px;
+}
+.features p{
+  font-weight: 400;
+font-size: 16px;
+line-height: 35px;
+text-align: center;
+color: #0F2137;
+margin-bottom: 90px;
+}
+
